@@ -10,39 +10,59 @@
     <script src="main.js"></script>
 </head>
 
-<header>
-    <h1 style= "background-color: #4aaaa5">Orlando Correa</h1>
-    <a href="#">About</a>
-    <a href="#">Portfolio</a>
-    <a href="#">Contact</a>
-    <hr>
-</header>
 
 <body>
-    <h2>Contact</h2>
-    <hr>
-    <form>
-        Name:
+    <div class=" noMargin pd">
+        <div class="left">
+            <h1 class="left">Orlando Correa</h1>
+
+        </div>
+        <div class="right">
+
+            <a href="index.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="mainContentBackground">
+
+        <div class="padding border mainContentContainer px">
+            <h2 class="DifColor">Contact</h2>
+            <hr>
+            <form>
+                Name:
+                <br>
+                <input class="input-element" type="text" name="name">
+                <br> Email:
+                <br>
+                <input class="input-element" type="text" name="name">
+                <br>
+            </form>
+            <form action="/action_page.php">
+                Message:
+                <br>
+                <textarea name="message" rows="10" cols="100"></textarea>
+                <br>
+                <input type="submit">
+            </form>
+
+        </div>
         <br>
-        <input type="text" name="name">
-        <br> Email:
         <br>
-        <input type="text" name="name">
         <br>
-    </form>
-    <form action="/action_page.php">
-        Message:
         <br>
-        <textarea name="message" rows="10" cols="30"></textarea>
         <br>
-        <input type="submit">
-    </form>
+        <br>
+        <br>
+        <br>
+        <hr id="bottom">
+        <footer>
+            <p>Copyright ©</p>
+        </footer>
+    </div>
 
 
 </body>
-<hr>
-<footer>
-    <p>Copyright ©</p>
-</footer>
 
 </html>
